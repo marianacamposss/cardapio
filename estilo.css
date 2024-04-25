@@ -14,16 +14,18 @@
 body {
     height: 100vh;
 }
-
+#capa {
+    margin-top: 150px;
+   margin-left: 180px;
+}
 header {
     background-color: #f5efe1;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     background-size: cover;
-    background-image: url('cp.jpg');
 }
 
 header h1 {
@@ -259,4 +261,7 @@ header h1 {
 
 .card:hover > figure {
     transform: scale(1.03);
+}
+.#linha_topo {
+    
 }
